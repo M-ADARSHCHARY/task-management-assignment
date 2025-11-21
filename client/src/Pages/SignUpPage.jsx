@@ -94,9 +94,9 @@ const SignUpPage = () => {
         {/* Login Link */}
         <p className="text-center text-sm mt-5 text-gray-300">
           Already have an account?{" "}
-          <span className="text-[#98B060] hover:underline cursor-pointer">
+          <button className="text-[#98B060] hover:underline cursor-pointer" onClick={()=>{navigate("/signup")}}>
             Log in
-          </span>
+          </button>
         </p>
 
       </div>
